@@ -6585,6 +6585,12 @@ public final class Settings {
          */
         public static final String NAVIGATION_BAR_ARROW_KEYS = "navigation_bar_menu_arrow_keys";
 
+        /**
+         * Controls whether to show notification headers
+         * @hide
+         */
+        public static final String NOTIFICATION_HEADERS = "notification_headers";
+
         /***************************
          * AICP System Settings end
          ***************************/
@@ -6809,6 +6815,7 @@ public final class Settings {
             AICP_SETTINGS_VALIDATORS.put(GAMING_MODE_MANUAL_BRIGHTNESS_TOGGLE, BOOLEAN_VALIDATOR);
             AICP_SETTINGS_VALIDATORS.put(GAMING_MODE_DYNAMIC_STATE, BOOLEAN_VALIDATOR);
             AICP_SETTINGS_VALIDATORS.put(NAVIGATION_BAR_ARROW_KEYS, BOOLEAN_VALIDATOR);
+            AICP_SETTINGS_VALIDATORS.put(NOTIFICATION_HEADERS, BOOLEAN_VALIDATOR);
         }
 
         /**
